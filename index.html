@@ -1,0 +1,115 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <meta property="og:image:alt" content="">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+
+  <style type="text/css">
+
+
+:root {
+  --bgcolor: #171717;
+}
+
+    body {
+  background: #f06d06;
+  background: var(--bgcolor);
+  font-size: 80%;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin:0;
+  padding:0;
+  position: static;
+  background: none;
+/*  background-image: url('Bildschirmfoto 2024-10-23 um 02.16.56 - DAR 1.6zu1.png'); */
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0px;
+  resize: both;
+  overflow: auto;
+}
+
+main div {
+  background: var(--bgcolor);
+  color: white;
+  width: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 20px;
+  overflow: auto;
+}
+
+p {margin:0;padding:0}
+
+.unselectable {
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+
+
+
+#headimg {
+    pointer-events: none;
+}
+
+
+
+.inner {
+  position: absolute;
+}
+
+
+@font-face {
+    font-family: 'recoletaregular_demo';
+    src: url('recoleta-regulardemo-webfont.woff2') format('woff2'),
+         url('recoleta-regulardemo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+  </style>
+</head>
+
+<body>
+
+<main>
+<!--
+  <div style="text-align: center;color:white;font-family:recoletaregular_demo;font-size: 3em;letter-spacing: .01em;">orangecine.com<br><span style="font-size:1.5rem;">© 2024</span></div>
+-->
+
+<img dragable="false" (dragstart)="false;" id="headimg" class="unselectable" style="margin:0;padding:0;display:block;    width:100%;height:100%" src="Bildschirmfoto 2024-10-23 um 02.16.56 - DAR 1.6zu1.png">
+</main>
+
+<div style="position:static;margin:0;padding:0;background:#171717;"><p style="font-size:12em;color:white;">Some more text, nothing of relevance.</p></div>
+
+</body>
+
+</html>
